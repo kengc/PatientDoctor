@@ -20,4 +20,8 @@
     return self;
 }
 
+-(void)healthCardStatus:(Doctor *)doctor{
+    [self.delegate doesHaveHealthCard:self]; //delegates (sendS) to parent
+}
+
 @end

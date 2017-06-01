@@ -21,4 +21,13 @@
     return self;
 }
 
+- (void)requestMedication{
+}
+-(void)doesHaveHealthCard:(Doctor *)doctor{
+}
+
+//- (void) doesHaveHealthCard:(Patient *) patient{
+//    //NSlog(@"%@, cares for %@ "self.name, child.name);
+//}
+
 @end
